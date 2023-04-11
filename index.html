@@ -9,22 +9,54 @@
 </head>
 
 <body style="background-color:black;text-align:center">
+   
+ 
+     <!-- class="form-popup" hides popup by default -->
+   
+     <div class="form-popup" id="contact">
+          <form class="form-container">
+             <h1><a href='https://fantasticpv.netlify.app'>Home</a> <p></h1>
+          </form>
+     </div>   
+   
+     <div class="form-popup" id="contact">
+          <form class="form-container">
+             <h1>Contact</h1>
+             <a href='#'>Paul Valladares</a> <p>
+             <p>
+             <a href='#'>paulvalladares@gmail.com</a> <p>
+             <p>
+             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+     </div>
 
-<h1 style="color:white";font-size:40px">
-   Hello Git!
-</h1>
+     <!-- class="form-popup" hides popup by default -->
+     <div class="form-popup" id="about">
+          <form class="form-container">
+             <h1>About</h1>
+             <a href='#'>Author: Paul Valladares</a> <p>
+             <p>
+             <a href='#'>Web Demo</a> <p>
+             <p>
+             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+     </div>   
 
-<img src="./images/github.png" />
+      <h1 style="color:white";font-size:40px">
+         Hello Git!
+      </h1>
 
-<p style="color:green;font-size:30px">
-   Have a great day! 
- </p>
+      <img src="./images/github.png" />
 
- <p style="color:white;font-size:30px" id="demo"></p>
+      <p style="color:green;font-size:30px">
+         Have a great day! 
+       </p>
 
-<script>
-document.getElementById("demo").innerHTML = Date();
-</script>                
+       <p style="color:white;font-size:30px" id="demo"></p>
+
+      <script>
+      document.getElementById("demo").innerHTML = Date();
+      </script>                
 
 </body>
 </html>
