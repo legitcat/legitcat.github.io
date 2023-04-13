@@ -28,4 +28,18 @@ function openPopup(type) {
 
   }
 
+      function animate(){
+
+         var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png' ];
+
+         value=0;
+         setInterval(function() {    
+             //alert(image[value]);
+             $('#img1').attr('src', image[value]);
+             $('.hide').show(1000);
+             value++;
+        }, 1000);
+
+     }
+
 
