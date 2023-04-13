@@ -35,7 +35,7 @@ function openPopup(type) {
          value=0;
          setInterval(function() {    
              //alert(image[value]);
-             $('#img1').attr('src', image[value]);
+             $('#img1').attr('src', "./images/" + image[value]);
              $('.hide').show(1000);
              value++;
         }, 1000);
