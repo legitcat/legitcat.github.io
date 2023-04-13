@@ -4,8 +4,8 @@ function openNav() {
 }
 
 function closeNav() {
-     document.getElementById("about").style.display = "";
-     document.getElementById("contact").style.display = "";
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
 } 
 
 function closePopup() {
