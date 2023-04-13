@@ -8,6 +8,11 @@ function closeNav() {
      document.getElementById("contact").style.display = "";
 } 
 
+function closePopup() {
+     document.getElementById("about").style.display  = "";
+     document.getElementById("contact").style.display  = "";
+} 
+
 
 function openPopup(type) {
 
