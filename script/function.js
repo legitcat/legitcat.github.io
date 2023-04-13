@@ -4,15 +4,12 @@ function openNav() {
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}  
+     document.getElementById("about").style.display = "";
+     document.getElementById("contact").style.display = "";
+} 
 
 
-function openForm(type) {
-
-     document.getElementById("contact").style.display = "none";
-     document.getElementById("about").style.display = "none";
+function openPopup(type) {
 
      if (type=='contact'){
         document.getElementById("contact").style.display = "block";
@@ -21,13 +18,9 @@ function openForm(type) {
         document.getElementById("about").style.display = "block";
       }
 
+     document.getElementById("mySidenav").style.width = "0";
+     document.getElementById("main").style.marginLeft= "0";
 
   }
 
-  function closeForm() {
-
-     <!--hide popups-->
-     document.getElementById("contact").style.display = "none";
-     document.getElementById("about").style.display = "none";
-  }
 
