@@ -37,7 +37,7 @@ function animate(){
          img='';
          setInterval(function() {    
              //alert(image[value]);
-             img='/images/' + image[value];
+             img='./images/' + image[value];
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
