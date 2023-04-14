@@ -36,20 +36,16 @@ function animate(){
      value=0;
      img='';
 
-     setInterval(function() {    
+     vat Timmer=setInterval(function() {    
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
              If (value==4){
-                StopInterval();
+                clearInterval(Timmer);
               }
         }, 1000);
 
      }
-
-function StopInterval() {
-  clearInterval(animate);
-}
 
