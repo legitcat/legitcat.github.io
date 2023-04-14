@@ -28,14 +28,16 @@ function openPopup(type) {
 
   }
 
-      function animate(){
+function animate(){
 
-         var image = [ './images/cat1.png', './images/cat2.png', './images/cat3.png','./images/cat4.png','./images/cat5.png' ];
+         var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png' ];
 
          value=0;
+         img='';
          setInterval(function() {    
              //alert(image[value]);
-             $('#img1').attr('src', image[value]);
+             img='/images/' + image[value];
+             $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
         }, 1000);
