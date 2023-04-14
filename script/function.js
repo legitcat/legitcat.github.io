@@ -1,4 +1,4 @@
-function openNav() {
+Byfunction openNav() {
   document.getElementById("mySidenav").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
 }
@@ -35,7 +35,7 @@ function openPopup(type) {
          value=0;
          setInterval(function() {    
              //alert(image[value]);
-             $('#img1').attr('src', + image[value]);
+             $('#img1').attr('src', image[value]);
              $('.hide').show(1000);
              value++;
         }, 1000);
