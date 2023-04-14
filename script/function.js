@@ -41,6 +41,9 @@ function animate(){
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
+             If (value==5){
+                clearTimeout();
+              }
         }, 1);
 
      }
