@@ -41,7 +41,7 @@ function animate(){
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
-        }, 1000);
+        }, 1);
 
      }
 
