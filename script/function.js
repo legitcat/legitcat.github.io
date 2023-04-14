@@ -30,7 +30,7 @@ function openPopup(type) {
 
       function animate(){
 
-         var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png' ];
+         var image = [ './images/cat1.png', './images/cat2.png', './images/cat3.png','./images/cat4.png','./images/cat5.png' ];
 
          value=0;
          setInterval(function() {    
