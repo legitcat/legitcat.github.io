@@ -36,7 +36,7 @@ function animate(){
      value=0;
      img='';
 
-     vat Timmer=setInterval(function() {    
+     var Timmer=setInterval(function() {    
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
