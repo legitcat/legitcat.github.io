@@ -36,17 +36,20 @@ function animate(){
      value=0;
      img='';
 
-     var interval =  setInterval(function() {    
+     setInterval(function() {    
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
              If (value==4){
-                clearInterval(interval);
+                StopInterval();
               }
         }, 1000);
 
      }
 
+function StopInterval() {
+  clearInterval(animate);
+}
 
