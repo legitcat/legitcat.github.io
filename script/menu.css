@@ -5,8 +5,6 @@
   color:orange;
   background:black;
   text-align:left;
-  top:0;
-  position:fixed;
 }
 
 .sidenav {
@@ -15,11 +13,11 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  /*left:0;*/
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .sidenav a {
@@ -47,4 +45,3 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
