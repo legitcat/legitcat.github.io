@@ -35,16 +35,17 @@ function animate(){
 
          value=0;
          img='';
-         setInterval(function() {    
+
+     var interval =  setInterval(function() {    
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
              $('.hide').show(1000);
              value++;
              If (value==5){
-                clearTimeout();
+                clearInterval(interval);
               }
-        }, 1);
+        }, 1000);
 
      }
 
