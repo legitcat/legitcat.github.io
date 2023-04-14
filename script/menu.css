@@ -5,6 +5,8 @@
   color:orange;
   background:black;
   text-align:left;
+  top:0;
+  position:fixed;
 }
 
 .sidenav {
