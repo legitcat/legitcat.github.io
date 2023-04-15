@@ -32,7 +32,7 @@ function openPopup(type) {
 
 function animate(){
 
-     var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png' ];
+     var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png','cat6.png','cat7.png','cat8.png' ];
 
      value=0;
      img='';
