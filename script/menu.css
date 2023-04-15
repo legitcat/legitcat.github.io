@@ -1,5 +1,7 @@
 
-.hamburger{
+.hamburger {
+  position:fixed;
+  top:0px;
   font-size:30px;
   cursor:pointer;
   color:orange;
