@@ -20,59 +20,64 @@
      </span>
      
      <table style="text-align:center;" width=100%">
-     <tr><th>
-     <div id="mySidenav" class="sidenav">
-       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;&nbsp;Close</a>
-       <a href="https://fantasticpv.netlify.app/">Netify Stack</a>
-       <a href="https://pvpython.pythonanywhere.com">Python MySql</a>
-       <a href="https://legitcat.github.io/blog/">Blog</a>
-       <a href="javascript:openPopup('about')">About</a>
-       <a href="javascript:openPopup('contact')">Contact</a>
+           <tr><th>
+                 <div id="mySidenav" class="sidenav">
+                   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;&nbsp;Close</a>
+                   <a href="https://fantasticpv.netlify.app/">Netify Stack</a>
+                   <a href="https://pvpython.pythonanywhere.com">Python MySql</a>
+                   <a href="https://legitcat.github.io/blog/">Blog</a>
+                   <a href="javascript:openPopup('about')">About</a>
+                   <a href="javascript:openPopup('contact')">Contact</a>
 
-     </div>
+                 </div>
 
 
-     <!-- class="form-popup" hides popup by default -->
+                 <!-- class="form-popup" hides popup by default -->
+
+                 <div class="form-popup" id="contact">
+                      <div class="form-container">
+                         <h1>Contact</h1>
+                         <a href='#'>Paul Valladares</a> <p>
+                         <p>
+                         <a href='#'>paulvalladares@gmail.com</a> <p>
+                         <p>
+                         <button type="button" class="btn cancel" onClick="closePopup()">Close</button>
+                      </div>
+                 </div>
+
+                 <!-- class="form-popup" hides popup by default -->
+                 <div class="form-popup" id="about">
+                      <div class="form-container">
+                         <h1>About</h1>
+                         <a href='#'>Author: Paul Valladares</a> <p>
+                         <p>
+                         <a href='#'>Web Demo</a> <p>
+                         <p>
+                         <button type="button" class="btn cancel" onClick="closePopup()">Close</button>
+                      </div>
+                 </div>   
+
+                  <!--<h1 style="color:white";font-size:40px">
+                     Hello Git!
+                  </h1>-->
+
+                  <img id="img1" src="./images/cat1.png" />
+
+                  <p style="color:green;font-size:30px">
+                     Have a great day! 
+                   </p>
+
+                   <p style="color:white;font-size:30px" id="demo"></p>
+
+                  <script>
+                  document.getElementById("demo").innerHTML = Date();
+                  </script> 
+
+                  <p style="color:white;font-size:30px">
+                     le<label style="color:orange">Git</label> Cat Toons!
+                  </p>
    
-     <div class="form-popup" id="contact">
-          <div class="form-container">
-             <h1>Contact</h1>
-             <a href='#'>Paul Valladares</a> <p>
-             <p>
-             <a href='#'>paulvalladares@gmail.com</a> <p>
-             <p>
-             <button type="button" class="btn cancel" onClick="closePopup()">Close</button>
-          </div>
-     </div>
-
-     <!-- class="form-popup" hides popup by default -->
-     <div class="form-popup" id="about">
-          <div class="form-container">
-             <h1>About</h1>
-             <a href='#'>Author: Paul Valladares</a> <p>
-             <p>
-             <a href='#'>Web Demo</a> <p>
-             <p>
-             <button type="button" class="btn cancel" onClick="closePopup()">Close</button>
-          </div>
-     </div>   
-
-      <!--<h1 style="color:white";font-size:40px">
-         Hello Git!
-      </h1>-->
-
-      <img id="img1" src="./images/cat1.png" />
-
-      <p style="color:green;font-size:30px">
-         Have a great day! 
-       </p>
-
-       <p style="color:white;font-size:30px" id="demo"></p>
-
-      <script>
-      document.getElementById("demo").innerHTML = Date();
-      </script> 
-      </th></tr>
+            </th></tr>
       </table>           
 
 </body>
