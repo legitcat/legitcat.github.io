@@ -38,7 +38,7 @@ function animate(){
      img='';
 
      const t=setInterval(function() {  
-          if (value <8){  
+          if (value <5){  
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
