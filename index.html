@@ -9,7 +9,12 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
    <link rel="stylesheet" href="./script/style.css"></link>
    <link rel="stylesheet" href="./script/menu.css"><link>
-   <script src="./script/function.js"></script>   
+   <link rel="stylesheet" href="./script/brick.css"><link>
+
+   <script src="./script/function.js"></script> 
+   <script src="./js/email.js"></script>
+   <script src="https://smtpjs.com/v3/smtp.js"></script>  
+
    
 </head>
 
@@ -20,7 +25,8 @@
      </span>
      
      <table style="text-align:center;" width=100%">
-           <tr><th>
+           <tr>
+               <td>
                  <div id="mySidenav" class="sidenav">
                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;&nbsp;Close</a>
                    <a href="https://fantasticpv.netlify.app/">Netlify Stack</a>
@@ -61,7 +67,7 @@
                      Hello Git!
                   </h1>-->
 
-                  <img id="img1" src="./images/cat1.png" />
+                  <img id="img1" src="./images/cat1.png" style="width:15%"/>
 
                   <p style="color:green;font-size:30px">
                      Have a great day! 
@@ -72,10 +78,27 @@
                   <script>
                   document.getElementById("demo").innerHTML = Date();
                   </script> 
-
   
-            </th></tr>
-      </table>           
+                 </td>
+            </tr>
+
+            <tr>
+               <td>
+
+		  <form id="form1">
+		      <input id="email" type="email" size="32px" required style="font-size:16px;" placeholder="email"></input><br/>
+		      <textarea id="comments" name="comments" rows="4" cols="32px" placeholder="Message" style="font-size:16px;"></textarea><br/>
+		      <input id="robot" name="robot" type="checkbox" style="transform : scale(1);font-size:16px;color:white">
+                      <label style="color:white">&nbsp;I'm not a robot</label></input><br/>
+		      <input type="button" onclick="validateemail()" value="Send Email" style="font-size:16px;"/><br/><br/>
+		      <b><label id="lblmsg" style="color:white;font-size:16px;"></label></b>
+		  </form>   
+
+               </td>
+             </tr>
+
+      </table>  
+         
 
 </body>
 </html>
