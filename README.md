@@ -1,4 +1,4 @@
 legitcat.github.io
 Git web demo
 
-![alt text](http:///legitcat.github.io/images/cat.gif)
+![alt text](https://legitcat.github.io/images/cat.gif)
