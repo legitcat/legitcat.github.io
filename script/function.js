@@ -32,17 +32,17 @@ function openPopup(type) {
 
 function animate(){
 
-     var image = [ 'cat1.png', 'cat2.png', 'cat3.png','cat4.png','cat5.png','cat6.png','cat7.png','cat8.png' ];
+     var image = [ 'toon.png', 'toon1.png', 'toon2.png','toon3.png' ];
 
      value=0;
      img='';
 
      const t=setInterval(function() {  
-          if (value <5){  
+          if (value <4){  
              //alert(image[value]);
              img='./images/' + image[value];
              $('#img1').attr('src', img);
-             $('.hide').show(1000);
+             $('.hide').show(900);
              value++;
            }
           else{
